@@ -1,0 +1,14 @@
+platformName: Android
+platformVersion: '7.0'
+unicodeKeyboard: true
+resetKeyboard:
+noReset: true
+chromeOptions:
+  androidProcess: com.tencent.mm:tools
+listHASdict:
+- admin1: 11111
+  name: "\u5217\u8868\u4E2D\u7684\u5B57\u51781"
+- admin2: 22222
+  name: "\u5217\u8868\u4E2D\u7684\u5B57\u51782"
+- admin3: 33333
+  name: "\u5217\u8868\u4E2D\u7684\u5B57\u51783"

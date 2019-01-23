@@ -1,0 +1,28 @@
+##key与value间隔的:之后加空格
+
+dict1: 'aaaa'
+dict2: 'hello'
+
+dictINdict:
+      user: admin
+      password: 123456
+
+#基本使用
+n1: 12.30
+n2: true    # True
+n3: false   # False
+n4: ~       # None
+time1: 2018-04-18t21:59:43.10+08:00
+date1: 2018-04-18
+n6: !!str 123   # 两个感叹号，强制转换数据类型
+n7: !!str true  # 两个感叹号，强制转换数据类型
+
+#写一个数组，前面加一个‘-’符号，表示列表
+#外层dict嵌套list，内层list里嵌套dict
+listHASdict:
+- admin1: 11111
+  name1: '列表中的字典1'
+- admin2: 22222
+  name2: '列表中的字典2'
+- admin3: 33333
+  name3: '列表中的字典3'
